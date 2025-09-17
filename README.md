@@ -1,5 +1,9 @@
 # GuitarLA
 
+<p align="center">
+  <img src="public/img/guitarLA.webp" alt="Imagen de la Aplicacion" width="100%"/>
+</p>
+
 GuitarLA es una tienda virtual de guitarras desarrollada con **React**. Permite
 a los usuarios explorar una colección de guitarras, agregarlas a un carrito de
 compras, modificar cantidades y simular una experiencia de compra sencilla. El
