@@ -29,6 +29,10 @@ estado del carrito se mantiene persistente usando **localStorage**.
 
 - **Componentes funcionales:** Toda la aplicación está construida usando
   componentes funcionales para una estructura moderna y reutilizable.
+- **Custom Hook:**
+  - `useCart`: Encapsula toda la lógica del carrito de compras, manejo de
+    cantidades, persistencia en localStorage y cálculo de totales, facilitando
+    su reutilización y mantenimiento.
 - **Hooks de React:**
   - `useState`: Para manejar el estado del carrito y los datos de la tienda.
   - `useEffect`: Para sincronizar el carrito con localStorage y ejecutar efectos
@@ -52,6 +56,9 @@ src/
 │
 ├── data/
 │   └── db.js           # Base de datos local de guitarras
+│
+├── hooks/
+│   └── useCart.js      # Custom hook para la lógica del carrito de compras
 │
 ├── App.jsx             # Componente principal, maneja el estado global y lógica del carrito
 └── index.js            # Punto de entrada de la aplicación
