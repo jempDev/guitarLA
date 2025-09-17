@@ -65,13 +65,14 @@ src/
 1. **Clona el repositorio:**
 
    ```bash
-   git clone ttps://github.com/jempDev/guitarLA.git
-   cd guitarla
+   git clone https://github.com/jempDev/guitarLA.git
+   cd guitarLA
    ```
 
 2. **Instala las dependencias:**
 
    ```bash
+   npm install
 
    ```
 
